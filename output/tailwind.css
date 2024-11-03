@@ -603,9 +603,9 @@ video {
   background-position: center;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .px-8 {
@@ -623,11 +623,6 @@ video {
   padding-bottom: 2.25rem;
 }
 
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
 .pe-16 {
   padding-inline-end: 4rem;
 }
@@ -636,8 +631,8 @@ video {
   text-align: center;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+.font-plus-jakarta {
+  font-family: "Plus Jakarta Sans", serif;
 }
 
 .text-2xl {
@@ -659,20 +654,8 @@ video {
   font-weight: 500;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .tracking-widest {
   letter-spacing: 0.1em;
-}
-
-.tracking-tighter {
-  letter-spacing: -0.05em;
-}
-
-.-tracking-widest {
-  letter-spacing: -0.1em;
 }
 
 .text-white {
@@ -693,11 +676,6 @@ video {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:text-bg-btn:hover {
-  --tw-text-opacity: 1;
-  color: rgb(220 165 74 / var(--tw-text-opacity));
 }
 
 .hover\:text-bg-btn-hover:hover {
